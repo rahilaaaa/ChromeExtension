@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "Website Blocker",
+    "version": "1.0",
+    "description": "Blocks specific websites based on a predefined blocklist.",
+    "permissions": ["storage", "tabs", "webNavigation"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "index.html"
+    },
+    "icons": {
+      "48": "icon.png"
+    }
+  }
+  
